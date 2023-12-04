@@ -34,7 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: -2;
+  z-index: -1;
 }
 .rotater {
   aspect-ratio: 1;
@@ -139,11 +139,11 @@ body {
   margin-right: 5%;
   text-align: justify;
 }
-.texts a {
+a {
   text-underline-offset: 15%;
 }
-.texts a:link { color: #8bf; }
-.texts a:visited { color: #abd; }
+a:link { color: #8bf; }
+a:visited { color: #abd; }
 .hi {
   width: 22%;
 }
@@ -179,7 +179,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 5%;
+  margin-top: 2.5%;
   padding: 1em;
 }
 .links span {
@@ -218,7 +218,12 @@ body {
   }
   .texts:hover {
     margin-top: 3em;
-    margin-right: 3em;
+    margin-right: 0em;
     margin-bottom: 0;
+  }
+  .links {
+    width: 80%;
+    flex-direction: column;
+    height: 6em;
   }
 }
